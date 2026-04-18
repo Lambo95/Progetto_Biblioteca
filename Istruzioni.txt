@@ -1,0 +1,34 @@
+Parte 1 – Variabili e tipi di dati
+
+Dichiarare e stampare alcune variabili di esempio:
+    Titolo di un libro (stringa)
+    Numero di copie disponibili (intero)
+    Prezzo medio di un libro (float)
+    Stato "disponibile/non disponibile" (booleano)
+    (Esempio: titolo = "Il Signore degli Anelli", copie = 5, ecc.)
+
+Parte 2 – Strutture dati
+
+Creare una lista con almeno 5 titoli di libri.
+Creare un dizionario che mappi il titolo del libro al numero di copie disponibili.
+Creare un insieme (set) che contenga tutti gli utenti registrati alla biblioteca.
+
+Parte 3 – Classi e OOP
+Creare una classe Libro con attributi:titoloautoreannocopie_disponibili
+Aggiungere un metodo info() che restituisca una stringa descrittiva del libro. OK
+
+Creare una classe Utente con attributi:nomeetaid_utente
+Aggiungere un metodo scheda() che stampi i dati dell’utente. OK
+
+Creare una classe Prestito che colleghi un Utente a un Libro e contenga:utente (oggetto Utente)libro (oggetto Libro)giorni (numero di giorni del prestito)
+Aggiungere un metodo dettagli() che stampi tutte le informazioni sul prestito. OK
+
+Parte 4 – Funzionalità
+
+Creare una funzione presta_libro(utente, libro, giorni) che:
+    1. Verifichi se il libro ha almeno 1 copia disponibile
+        Se sì → riduca il numero di copie e crei un nuovo oggetto Prestito
+        Se no → stampi un messaggio di errore
+    2. Simulare almeno 3 prestiti con utenti e libri diversi.
+    3.Stampare a video:
+        L’elenco aggiornato delle copie disponibili per ciascun libroI dettagli di ogni prestito effettuato
